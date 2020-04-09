@@ -1,6 +1,6 @@
 {
     "name": "max-engines-versions",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Find the maximum version for each engine (specified in package.json) among all dependencies",
     "main": "src/main.js",
     "repository": "https://github.com/jneuendorf/maximum-engines-versions.git",
