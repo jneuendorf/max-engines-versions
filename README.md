@@ -3,6 +3,8 @@
 Find the maximum version for each engine (specified in package.json) among all dependencies.
 :warning: It only works if `npm install` or `yarn install` have been successfully run before.
 
+It is useful because not specifying the supported engines explicitly may result in some incompatible packages crashing at runtime instead when install your package. Dynamic imports/requires that require unnoticed incompatible packages may not be executed during testing or non-edge case usage.
+
 
 ## Installation
 
